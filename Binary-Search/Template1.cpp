@@ -26,5 +26,5 @@ int main(){
     if( ind == -1 )
         cout << "NOT FOUND";
     else
-        cout << "FOUND AT : " << ind ;
+        cout << "FOUND AT : " << ind << endl;
 }
