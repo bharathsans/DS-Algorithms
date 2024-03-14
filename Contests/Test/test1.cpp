@@ -40,14 +40,14 @@ void solve()
      sort(b.begin(), b.end());
      sort(c.begin(), c.end());
 
-     debug(b, c);
-
+     cout << n << " " << m << endl;
      
 }
 
 int main()
 {
      fast();
+
      int T;
      cin >> T;
      while(T--)
