@@ -25,31 +25,14 @@ void fast() { ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL); }
 
 void solve()
 {
-     int n, m, k;
-     cin >> n >> m >> k;
-   
-     vector<int> b(n);
-     vector<int> c(m);
-
-     for(int i = 0; i < n; i++)
-          cin >> b[i];
-
-     for(int i = 0; i < m; i++)
-          cin >> c[i];
-
-     sort(b.begin(), b.end());
-     sort(c.begin(), c.end());
-
-     cout << n << " " << m << endl;
-     
+      debug(1);
 }
 
 int main()
 {
-     fast();
-
-     int T;
-     cin >> T;
-     while(T--)
-         solve();
+      fast();
+      int T;
+      cin >> T;
+      while(T--)
+           solve();
 }
